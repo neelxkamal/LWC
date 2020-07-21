@@ -1,0 +1,26 @@
+.filter-from{
+    padding-left: 1.5rem; 
+    padding-right: .5rem; 
+    padding-bottom: 1.5rem; 
+}
+.filter-to{
+    padding-bottom: 1.5rem; 
+}
+.filter-button {
+    padding-left: .5rem; 
+    padding-top: 1.5rem; 
+    padding-right: 1.5rem; 
+    padding-bottom: 1.5rem; 
+}
+
+.filter-table {
+    padding-left: 1.5rem; 
+    padding-right: 1.5rem; 
+    padding-bottom: 1.5rem; 
+}
+.spinr{
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}

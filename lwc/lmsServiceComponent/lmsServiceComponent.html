@@ -1,0 +1,24 @@
+<!--
+  @description       : 
+  @author            : Neel Kamal
+  @group             : 
+  @last modified on  : 07-07-2020
+  @last modified by  : Neel Kamal
+  Modifications Log 
+  Ver   Date         Author       Modification
+  1.0   07-07-2020   Neel Kamal   Initial Version
+-->
+
+<template>
+    <lightning-card title="LWC" icon-name="custom:custom18">
+        <div class="slds-m-around_medium">
+            <lightning-input label="Message To Send" type="text" value={_msg} onchange={handleChange}></lightning-input>
+            <lightning-button label="Publish" onclick={handleClick}></lightning-button>
+            <br>
+            <lightning-button label="Subscribe" onclick={handleSubscribe}></lightning-button>
+            <lightning-button label="Unsubscribe" onclick={handleUnsubscribe}></lightning-button>
+            <p> Message Received</p>
+            <lightning-formatted-text value={receivedMessage}></lightning-formatted-text>
+        </div>
+    </lightning-card>
+</template>

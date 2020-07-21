@@ -1,0 +1,31 @@
+<template >
+    <lightning-card >
+        <template if:true={showSpinner}>
+	             <lightning-spinner variant="brand" alternative-text="Loading" size="medium"></lightning-spinner>
+        </template> 
+        <div class="slds-grid">
+            <div class="slds-col slds-size_1-of-10 filter-from">
+                <lightning-input type="date" name="fromDt" label="From" value={fromDate} onchange={handleDate}></lightning-input>
+            </div>
+            <div class="slds-col slds-size_1-of-10 filter-to">
+                <lightning-input type="date" name="toDt" label="To" value={toDate} onchange={handleDate}></lightning-input>
+            </div>
+            <div class="slds-col slds-size_1-of-10 filter-pad filter-button">
+               
+                <lightning-button variant="brand" label="Filter" title="Filter Table Data" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+            </div>
+        </div>
+        
+        <div class="slds-table_bordered filter-table ">
+            <lightning-datatable
+                data={data}
+                columns={columns}
+                key-field="id"
+                default-sort-direction={defaultSortDirection}
+                sorted-direction={sortDirection}
+                sorted-by={sortedBy}
+                onsort={onHandleSort} >
+            </lightning-datatable>
+        </div>
+    </lightning-card>
+</template>

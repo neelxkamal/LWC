@@ -1,0 +1,86 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/lwcCustomLookup": [
+                "lwcCustomLookup/lwcCustomLookup.js"
+            ],
+            "c/leadConversionHelper": [
+                "leadConversionHelper/leadConversionHelper.js"
+            ],
+            "c/fetchPicklistValues": [
+                "fetchPicklistValues/fetchPicklistValues.js"
+            ],
+            "c/videoPlayer": [
+                "videoPlayer/videoPlayer.js"
+            ],
+            "c/createMultipleObjectForm": [
+                "createMultipleObjectForm/createMultipleObjectForm.js"
+            ],
+            "c/methodCaller": [
+                "methodCaller/methodCaller.js"
+            ],
+            "c/todoitem": [
+                "todoitem/todoitem.js"
+            ],
+            "c/lwcFlowTest": [
+                "lwcFlowTest/lwcFlowTest.js"
+            ],
+            "c/searchComponent": [
+                "searchComponent/searchComponent.js"
+            ],
+            "c/helloNeel": [
+                "helloNeel/helloNeel.js"
+            ],
+            "c/lwcTextBox": [
+                "lwcTextBox/lwcTextBox.js"
+            ],
+            "c/displayCustomDataTable": [
+                "displayCustomDataTable/displayCustomDataTable.js"
+            ],
+            "c/recordList": [
+                "recordList/recordList.js"
+            ],
+            "c/datatable": [
+                "datatable/datatable.js"
+            ],
+            "c/customLookup": [
+                "customLookup/customLookup.js"
+            ],
+            "c/staticSchema": [
+                "staticSchema/staticSchema.js"
+            ],
+            "c/todoapp": [
+                "todoapp/todoapp.js"
+            ],
+            "c/toDos": [
+                "toDos/toDos.js"
+            ],
+            "c/lwcPopover": [
+                "lwcPopover/lwcPopover.js"
+            ],
+            "c/lwcLeadConversionInfo": [
+                "lwcLeadConversionInfo/lwcLeadConversionInfo.js"
+            ],
+            "c/lookupRecordList": [
+                "lookupRecordList/lookupRecordList.js"
+            ],
+            "c/picklistValueDemo": [
+                "picklistValueDemo/picklistValueDemo.js"
+            ],
+            "c/lmsServiceComponent": [
+                "lmsServiceComponent/lmsServiceComponent.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}
